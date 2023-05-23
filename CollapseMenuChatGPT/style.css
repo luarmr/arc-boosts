@@ -1,0 +1,7 @@
+*:has(>*>*>*>[aria-label="Chat history"]) {
+    transition: width 0.3s ease-in-out;
+}
+
+*:has(>*>*>*>[aria-label="Chat history"]):not(:hover):not(:focus):not(:active):not(:focus-within) {
+    width: 10px !important;
+}
